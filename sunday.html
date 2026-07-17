@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>G-Shipping Schedule</title>
+
+    <style>
+
+    </style>
+    <link rel="styleSheet" href="./sundayStyle.css">
+</head>
+
+<body>
+
+    <main id="container">
+
+        <!-- =====================================================
+                             FIXED TOP AREA
+        ====================================================== -->
+
+        <header id="day-selector">
+
+            <section id="current-day">
+                <h1>Sunday</h1>
+            </section>
+
+            <nav id="weekend-nav" aria-label="Weekend navigation">
+
+                <a
+                    class="day-link"
+                    href="./saturday.html"
+                >
+                    Saturday
+                </a>
+                <a
+                    class="day-link active"
+                    href="./sunday.html"
+                >
+                    Sunday
+                </a>
+
+            </nav>
+
+            <nav id="weekday-nav" aria-label="Weekday navigation">
+
+                <a
+                    class="day-link "
+                    href="./index.html"
+                >
+                    Monday
+                </a>
+
+                <a
+                    class="day-link "
+                    href="./tuesday.html"
+                >
+                    Tuesday
+                </a>
+
+                <a
+                    class="day-link"
+                    href="./wednesday.html"
+                >
+                    Wednesday
+                </a>
+
+                <a
+                    class="day-link"
+                    href="./thursday.html"
+                >
+                    Thursday
+                </a>
+
+                <a
+                    class="day-link "
+                    href="./friday.html"
+                >
+                    Friday
+                </a>
+
+            </nav>
+
+        </header>
+
+        <!-- =====================================================
+                            MAIN DASHBOARD
+        ====================================================== -->
+
+        <section id="dashboard">
+
+            <!-- =================================================
+                         SHIPPING SCHEDULE PANEL
+            ================================================== -->
+
+            <section id="shipping-schedule">
+
+                <header id="schedule-header">
+
+                    <div>
+                        <h2 id="schedule-title">
+                            Sunday Shipping Schedule
+                        </h2>
+
+                        <p id="schedule-subtitle">
+                            Trailer pickup and cutoff information
+                        </p>
+                    </div>
+                    <div id="trailer-count">
+                        <strong>-</strong>
+                        <span>Trailers</span>
+                    </div>
+                    <div id="trailer-count">
+                        <strong>+</strong>
+                        <span>Trailers</span>
+                    </div>
+                    <div id="trailer-count">
+                        <strong>14</strong>
+                        <span>Trailers</span>
+                    </div>
+
+                </header>
+
+                <!-- Only this section scrolls -->
+
+                <div class="schedule-scroll-area">
+
+                    <div class="schedule-column-header">
+
+                        <div class="column-heading">
+                            Carrier / Location
+                        </div>
+
+                        <div class="column-heading">
+                            Pick-up Time
+                        </div>
+
+                        <div class="column-heading">
+                            CPT
+                        </div>
+
+                    </div>
+
+                    <div id="trailer-list">
+            <!-- =================================================
+                           TRAILERS
+            ================================================== -->
+                        <article class="trailer-log">
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label carrier-name">
+                                    Jitsu Los Angeles
+                                </span>
+
+                                <span class="schedule-value">
+                                    Dock -
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    8:00 AM
+                                </span>
+
+                                <span class="status-badge">
+                                    Scheduled
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    9:00 AM
+                                </span>
+
+                                <span class="schedule-value">
+                                    Cutoff time
+                                </span>
+                            </p>
+
+                        </article>
+                        <article class="trailer-log">
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label carrier-name">
+                                    Jitsu Washington <br> Jitsu Portland
+                                </span>
+
+                                <span class="schedule-value">
+                                    Dock -
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    9:00 AM
+                                </span>
+
+                                <span class="status-badge">
+                                    Scheduled
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    12:00 PM
+                                </span>
+
+                                <span class="schedule-value">
+                                    Cutoff time
+                                </span>
+                            </p>
+
+                        </article>
+                        <article class="trailer-log">
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    OnTrac Sacramento
+                                </span>
+
+                                <span class="schedule-value">
+                                    Dock -
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    12:00 PM
+                                </span>
+
+                                <span class="status-badge">
+                                    Scheduled
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    1:00 PM
+                                </span>
+
+                                <span class="schedule-value">
+                                    Cutoff time
+                                </span>
+                            </p>
+                        </article>
+                        <article class="trailer-log">
+                            <p class="schedule-cell">
+                                <span class="schedule-label carrier-name">
+                                    OnTrac Hayward South
+                                </span>
+
+                                <span class="schedule-value">
+                                    Dock -
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    10:00 AM
+                                </span>
+
+                                <span class="status-badge">
+                                    Scheduled
+                                </span>
+                            </p>
+  
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    2:00 PM
+                                </span>
+
+                                <span class="schedule-value">
+                                    Cutoff time
+                                </span>
+                            </p>
+                        </article>
+                        <article class="trailer-log">
+                            <p class="schedule-cell">
+                                <span class="schedule-label carrier-name">
+                                    OnTrac Hayward South 2
+                                </span>
+
+                                <span class="schedule-value">
+                                    Dock -
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    11:00 AM
+                                </span>
+
+                                <span class="status-badge-negative">
+                                    Unscheduled
+                                </span>
+                            </p>
+  
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    2:00 PM
+                                </span>
+
+                                <span class="schedule-value">
+                                    Cutoff time
+                                </span>
+                            </p>
+                        </article>
+                        <article class="trailer-log">
+                            <p class="schedule-cell">
+                                <span class="schedule-label carrier-name">
+                                    FedEx Denver
+                                </span>
+
+                                <span class="schedule-value">
+                                    Dock -
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    10:00 AM
+                                </span>
+
+                                <span class="status-badge">
+                                    Scheduled
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    4:00 PM
+                                </span>
+
+                                <span class="schedule-value">
+                                    Cutoff time
+                                </span>
+                            </p>
+                        </article>
+                        <article class="trailer-log">
+                            <p class="schedule-cell">
+                                <span class="schedule-label carrier-name">
+                                    OnTrac San Francisco
+                                </span>
+
+                                <span class="schedule-value">
+                                    Dock -
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    1:00 PM
+                                </span>
+
+                                <span class="status-badge">
+                                    Scheduled
+                                </span>
+                            </p>
+  
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    4:00 PM
+                                </span>
+
+                                <span class="schedule-value">
+                                    Cutoff time
+                                </span>
+                            </p>
+                        </article>
+                        <article class="trailer-log">
+                            <p class="schedule-cell">
+                                <span class="schedule-label carrier-name">
+                                    OnTrac Hayward North
+                                </span>
+
+                                <span class="schedule-value">
+                                    Dock -
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    2:00 PM
+                                </span>
+
+                                <span class="status-badge">
+                                    Scheduled
+                                </span>
+                            </p>
+  
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    4:00 PM
+                                </span>
+
+                                <span class="schedule-value">
+                                    Cutoff time
+                                </span>
+                            </p>
+                        </article>
+                        <article class="trailer-log">
+                            <p class="schedule-cell">
+                                <span class="schedule-label carrier-name">
+                                    OnTrac Hayward North 2
+                                </span>
+
+                                <span class="schedule-value">
+                                    Dock -
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    2:00 PM
+                                </span>
+
+                                <span class="status-badge-negative">
+                                    Unscheduled
+                                </span>
+                            </p>
+  
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    4:30 PM
+                                </span>
+
+                                <span class="schedule-value">
+                                    Cutoff time
+                                </span>
+                            </p>
+                        </article>
+                        <article class="trailer-log">
+
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    OnTrac San Jose
+                                </span>
+
+                                <span class="schedule-value">
+                                    Dock -
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    2:30 PM
+                                </span>
+
+                                <span class="status-badge">
+                                    Scheduled
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    5:00 PM
+                                </span>
+
+                                <span class="schedule-value">
+                                    Cutoff time
+                                </span>
+                            </p>
+
+                        </article>
+                        <article class="trailer-log">
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    Jitsu San Francisco
+                                </span>
+
+                                <span class="schedule-value">
+                                    Dock -
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    3:00 PM
+                                </span>
+
+                                <span class="status-badge">
+                                    Scheduled
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    5:00 PM
+                                </span>
+
+                                <span class="schedule-value">
+                                    Cutoff time
+                                </span>
+                            </p>
+                        </article>
+                    
+                        <article class="trailer-log">
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    FedEx Phoenix
+                                </span>
+
+                                <span class="schedule-value">
+                                    Dock -
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    3:15 PM
+                                </span>
+
+                                <span class="status-badge">
+                                    Scheduled
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    5:00 PM
+                                </span>
+
+                                <span class="schedule-value">
+                                    Cutoff time
+                                </span>
+                            </p>
+                        </article>
+                        <article class="trailer-log">
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    FedEx Portland
+                                </span>
+
+                                <span class="schedule-value">
+                                    Dock -
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    3:20 PM
+                                </span>
+
+                                <span class="status-badge">
+                                    Scheduled
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    6:00 PM
+                                </span>
+
+                                <span class="schedule-value">
+                                    Cutoff time
+                                </span>
+                            </p>
+                        </article>
+                        <article class="trailer-log">
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    FedEx Portland 2
+                                </span>
+
+                                <span class="schedule-value">
+                                    Dock -
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    3:20 PM
+                                </span>
+
+                                <span class="status-badge">
+                                    Scheduled
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    7:00 PM
+                                </span>
+
+                                <span class="schedule-value">
+                                    Cutoff time
+                                </span>
+                            </p>
+                        </article>
+                </div>
+
+            </section>
+
+            <!-- =================================================
+                            FIXED CARRIER PANELS FEDEX
+            ================================================== -->
+
+            <aside id="carrier-panels">
+
+                <section
+                    id="fedex-panel"
+                    class="carrier-panel"
+                >
+
+                    <header class="panel-header">
+                        <h2>FedEx</h2>
+
+                        <span class="panel-status">
+                            Active
+                        </span>
+                    </header>
+
+                    <div class="schedule-scroll-area">
+                        <div class="schedule-column-header">
+
+                            <div class="column-heading">
+                                Carrier / Location
+                            </div>
+
+                            <div class="column-heading">
+                                Pick-up Time
+                            </div>
+
+                            <div class="column-heading">
+                                CPT
+                            </div>
+                        </div> 
+                       <article class="side-panels-schedule">
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    FedEx Denver
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    10:00 AM
+                                </span>
+
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    4:00 PM
+                                </span>
+                            </p>
+                        </article>
+                       <article class="side-panels-schedule">
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    FedEx Phoenix
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    3:15 PM
+                                </span>
+
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    5:00 PM
+                                </span>
+                            </p>
+                        </article>
+                       <article class="side-panels-schedule">
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    FedEx Portland
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    3:20 PM
+                                </span>
+
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    6:00 PM
+                                </span>
+                            </p>
+                        </article>
+                       <article class="side-panels-schedule">
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    FedEx Portland 2
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    3:20 PM
+                                </span>
+
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    7:00 PM
+                                </span>
+                            </p>
+                        </article>         
+                    </div>
+
+                </section>
+            <!-- =================================================
+                            FIXED CARRIER PANELS ONTRAC
+            ================================================== -->
+                <section
+                    id="ontrac-panel"
+                    class="carrier-panel"
+                >
+
+                    <header class="panel-header">
+                        <h2>OnTrac</h2>
+
+                        <span class="panel-status">
+                            Active
+                        </span>
+                    </header>
+                    <div class="schedule-scroll-area">
+                        <div class="schedule-column-header">
+
+                            <div class="column-heading">
+                                Carrier / Location
+                            </div>
+
+                            <div class="column-heading">
+                                Pick-up Time
+                            </div>
+
+                            <div class="column-heading">
+                                CPT
+                            </div>
+                        </div> 
+                       <article class="side-panels-schedule">
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    OnTrac Sacramento
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    12:00 PM
+                                </span>
+
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    1:00 PM
+                                </span>
+                            </p>
+                        </article>  
+                       <article class="side-panels-schedule">
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    OnTrac Hayward South
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    10:00 AM
+                                </span>
+
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    2:00 PM
+                                </span>
+                            </p>
+                        </article>
+                       <article class="side-panels-schedule">
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    OnTrac Hayward South 2
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    11:00 AM
+                                </span>
+
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    2:00 PM
+                                </span>
+                            </p>
+                        </article>
+                       <article class="side-panels-schedule">
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    OnTrac San Francisco 
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    1:00 PM
+                                </span>
+
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    4:00 PM
+                                </span>
+                            </p>
+                        </article> 
+                       <article class="side-panels-schedule">
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    OnTrac Hayward North
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    2:00 PM
+                                </span>
+
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    4:00 PM
+                                </span>
+                            </p>
+                        </article>
+                       <article class="side-panels-schedule">
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    OnTrac Hayward North 2
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    2:00 PM
+                                </span>
+
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    4:30 PM
+                                </span>
+                            </p>
+                        </article>
+                       <article class="side-panels-schedule">
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    OnTrac San Jose
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    2:30 PM
+                                </span>
+
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    5:00 PM
+                                </span>
+                            </p>
+                        </article>     
+                    </div>
+
+                </section>
+            <!-- =================================================
+                            FIXED CARRIER PANELS JITSU
+            ================================================== -->
+                <section
+                    id="jitsu-panel"
+                    class="carrier-panel"
+                >
+
+                    <header class="panel-header">
+                        <h2>Jitsu</h2>
+
+                        <span class="panel-status">
+                            Active
+                        </span>
+                    </header>
+
+                    <div class="schedule-scroll-area">
+                        <div class="schedule-column-header">
+
+                            <div class="column-heading">
+                                Carrier / Location
+                            </div>
+
+                            <div class="column-heading">
+                                Pick-up Time
+                            </div>
+
+                            <div class="column-heading">
+                                CPT
+                            </div>
+                        </div> 
+
+            <!-- =================================================
+                           TRAILERS
+            ================================================== -->
+                       <article class="side-panels-schedule">
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    Jitsu Los Angeles
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    8:00 AM
+                                </span>
+
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    9:00 AM
+                                </span>
+                            </p>
+                        </article>
+                       <article class="side-panels-schedule">
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    Jitsu Washington
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    9:00 AM
+                                </span>
+
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    12:00 PM
+                                </span>
+                            </p>
+                        </article>   
+                       <article class="side-panels-schedule">
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    Jitsu Portland
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    9:00 AM
+                                </span>
+
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    12:00 PM
+                                </span>
+                            </p>
+                        </article>
+                       <article class="side-panels-schedule">
+                            <p class="schedule-cell ">
+                                <span class="schedule-label carrier-name">
+                                    Jitsu San Francisco
+                                </span>
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    3:00 PM
+                                </span>
+
+                            </p>
+
+                            <p class="schedule-cell">
+                                <span class="schedule-label">
+                                    5:00 PM
+                                </span>
+                            </p>
+                        </article>    
+
+                    </div>
+
+                </section>
+                </section>
+
+            </aside>
+
+        </section>
+
+    </main>
+
+</body>
+</html>
